@@ -6,7 +6,7 @@ from truck import Truck
 verbose_tests = False
 
 
-class TokenTests(unittest.TestCase):
+class TruckTests(unittest.TestCase):
     def setUp(self):
         self.obj = Truck()
 
