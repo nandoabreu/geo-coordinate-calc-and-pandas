@@ -27,11 +27,12 @@ Please check the [config file](config.py) to personalise variables as needed.
 
 ## Automatic tests
 _Note: to run tests manually, please refer to [Set-up and install](#set-up-and-install) first._
+_Note: to run tests using Makefile, virtualenv must be already installed._
 
 Python tests are available manually or using Makefile.  
 
-- Run ` make test ` to setup, install requirements, run the tests and clean up.
-- Or manually run ` python3 -m unittest tests/test_* `.
+- Run ` python3 -m unittest tests/test_* `.
+- Or use make as in ` make test ` to setup, run the tests and clean up.
 
 
 ## The Truck class
