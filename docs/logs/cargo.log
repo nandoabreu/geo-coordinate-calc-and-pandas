@@ -1,0 +1,14 @@
+1596743650:DEBUG:Running from truck.main
+1596743650:INFO:Truck object instantiated
+1596743650:DEBUG:Menu displayed
+1596743671:INFO:Trucks near 36.8 and -89.5: 3
+1596743671:DEBUG:Closest truck: Viking Products Of Austin Incustin
+1596743671:DEBUG:Trucks JSON printed
+1596743700:INFO:Exit application requested
+1596743709:DEBUG:Running from truck.main
+1596743709:INFO:Truck object instantiated
+1596743709:DEBUG:Menu displayed
+1596743718:DEBUG:Coords limit requested
+1596743733:INFO:Trucks near 47.0 and -123.0: 3
+1596743733:DEBUG:Closest truck: John Bianchiake Havasu City
+1596743733:DEBUG:Trucks JSON printed

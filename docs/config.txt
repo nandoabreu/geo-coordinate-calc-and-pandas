@@ -1,0 +1,30 @@
+Help on module config:
+
+NAME
+    config - Project's configuration file
+
+DESCRIPTION
+    This file holds necessary variables to this project.
+    
+    Log variables:
+        logs_level (str): Use one of CRITICAL, ERROR, WARNING, INFO, DEBUG
+        logs_dir (str): Path to the logs directory
+        logs_file (str): log filename to record in log_dir
+    
+    Data (csv) confs:
+        data_dir (str): Path to data (csv) files
+        trucks_csv (str): trucks csv filename
+        cargo_csv (str): cargo csv filename
+
+DATA
+    cargo_csv = 'cargo.csv'
+    data_dir = 'data'
+    logs_dir = 'logs'
+    logs_file = 'cargo.log'
+    logs_level = 'DEBUG'
+    trucks_csv = 'trucks.csv'
+
+FILE
+    /data/home/nando/Learning/job-senior-py-eng-loadsmart-coordinate-logistics/config.py
+
+
