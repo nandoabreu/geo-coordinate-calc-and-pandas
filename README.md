@@ -1,6 +1,6 @@
 # Geo coordinate calculation (using pandas)
 
-This task returns a list of trucks best located to be assigned to a cargo, based on geo coordinates from both, cargo and truck. This project was developed using **Python 3.8** over Ubuntu Linux and tested with _git clone_ into a Windows 10 with Python 3.6.
+This task returns a list of trucks best located to be assigned to a cargo, based on geo coordinates from both, cargo and truck. This project was developed using **Python 3.8** over Ubuntu Linux and tested with _git clone_ into a Windows10 VirtualBox with Python 3.7.
 
 &nbsp;  
 &nbsp;  
@@ -51,6 +51,8 @@ _Note: to run from command line, please refer to [Set-up and install](#set-up-an
 From the project's root directory, please run the following command and follow instructions:
 
     $ python3 -m truck
+
+_ATTENTION_: To **print all cargo** and **each optimal truck**, use the MENU option **_all_**.
 
 
 ## Logs
