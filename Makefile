@@ -1,25 +1,29 @@
+.ONESHELL:
+
 .PHONY: test clean
 
 virtualenv:
 	@echo "Creating virtualenv..."
-	virtualenv .venv >/dev/null 2>&1
-	source .venv/bin/activate
+	virtualenv .venv
 	@echo "Ready."
 
 setup: virtualenv
 	@echo "Installing requirements..."
-	python3 -m pip install -r requirements.txt >/dev/null 2>&1
+	. .venv/bin/activate
+	python3 -m pip install -r requirements.txt
 	@echo "Ready."
 
 test: setup
 	@echo "\n### Running unittests... ###########"
+	. .venv/bin/activate
 	python3 -m unittest tests/test_*
 	@echo "Done."
 	$(MAKE) clean
 
 clean:
 	@echo "Cleaning up..."
-	#find . -not -path '*/\.*' -name __pycache__ -exec ls {} +
+	find . -type d -name '__pycache__' -exec rm -rf {} +
+#	find . -type d -name '.venv' -exec rm -rf {} + >/dev/null 2>&1
 	@echo "Done."
 
 up: test
