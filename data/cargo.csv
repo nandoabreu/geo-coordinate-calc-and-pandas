@@ -1,0 +1,8 @@
+product,origin_city,origin_state,origin_lat,origin_lng,destination_city,destination_state,destination_lat,destination_lng
+Tomatoes,Grapevine,TX,32.9342919,-97.0780654,Hebron,KY,39.0661472,-84.70318879999999
+Computers,Christiansburg,VA,37.1298517,-80.4089389,Toledo,OH,41.6639383,-83.55521200000001
+Books,Columbus,OH,39.9611755,-82.99879419999999,Grapevine,TX,32.9342919,-97.0780654
+Lettuces,Jefferson,LA,29.96603709999999,-90.1531298,Waukegan,IL,42.3636331,-87.84479379999999
+Furniture,Hickory,NC,35.7344538,-81.3444573,Jefferson,LA,29.96603709999999,-90.1531298
+Mobile phones,Northfield,MN,44.4582983,-93.161604,Ottawa,IL,41.3455892,-88.8425769
+Bananas,Ottawa,IL,41.3455892,-88.8425769,Northfield,MN,44.4582983,-93.161604
