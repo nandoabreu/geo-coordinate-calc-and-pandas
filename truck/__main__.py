@@ -41,7 +41,7 @@ def match_cargo(cargo, truck) -> str:
     res = ""
     truck_in_use = []
     for row in cargo:
-        res += f'{row["product"]:<15} from {row["origin_state"]}'
+        res += f'{row["product"]:<15} from {row["origin_state"]} '
 
         t = truck.locate(float(row['origin_lat']), float(row['origin_lng']))
         for option in t["options"]:
